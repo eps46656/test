@@ -50,6 +50,6 @@ public class GreenCrud {
 			fibonacciInitialed_ = true;
 		}
 
-		return initialSize * fibonacci_[days / 5];
+		return initialSize * fibonacci_[days];
 	}
 }
