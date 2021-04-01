@@ -36,7 +36,7 @@ public class GreenCrud {
 	* @param days The green crud population after days days.
 	* @return An integer, which is the size of the green crud population after days days, starting at an initial size of initialSize.
 	*/
-	public static int calPopulation(int initialSize, int days) {
+	public tatic int calPopulation(int initialSize, int days) {
 		if (fibonacciInitialed_ == false) {
 			fibonacci_[0] = 1;
 			fibonacci_[1] = 1;
